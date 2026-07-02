@@ -1,4 +1,4 @@
-import { motion, useScroll, useSpring, AnimatePresence } from "framer-motion";
+import { motion, useScroll, useSpring, AnimatePresence, type Variants } from "framer-motion";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   Shield, Lock, Terminal, Cloud, Smartphone, Server, Globe, Code2,
