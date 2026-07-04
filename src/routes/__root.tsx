@@ -77,7 +77,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Sintu Sharma — Cybersecurity Consultant" },
+      { title: "Sintu Sharma — Cybersecurity Consultant | VAPT & AppSec" },
       {
         name: "description",
         content:
@@ -87,6 +87,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Sintu Sharma" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Sintu Sharma — Cybersecurity Consultant | VAPT & AppSec" },
+      { name: "twitter:title", content: "Sintu Sharma — Cybersecurity Consultant | VAPT & AppSec" },
+      { name: "description", content: "Cybersecurity consultant specializing in VAPT, Application Security, API Security, Mobile, Cloud & Product Security. 4+ years securing enterprise, banking and government systems." },
+      { property: "og:description", content: "Cybersecurity consultant specializing in VAPT, Application Security, API Security, Mobile, Cloud & Product Security. 4+ years securing enterprise, banking and government systems." },
+      { name: "twitter:description", content: "Cybersecurity consultant specializing in VAPT, Application Security, API Security, Mobile, Cloud & Product Security. 4+ years securing enterprise, banking and government systems." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6ebc7849-71d5-4d59-9f6d-e9a609673dea/id-preview-80eee192--0331d5a3-6944-4d56-9add-46ec2a1aa1af.lovable.app-1783049394977.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6ebc7849-71d5-4d59-9f6d-e9a609673dea/id-preview-80eee192--0331d5a3-6944-4d56-9add-46ec2a1aa1af.lovable.app-1783049394977.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
